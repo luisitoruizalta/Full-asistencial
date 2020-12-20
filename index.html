@@ -31,73 +31,79 @@
 					<input type="text" placeholder="Events preceding" >
 
 			<h6>Constants1</h6>
-				<input type="text" placeholder="FR1" >
-				<input type="text" placeholder="FC1" >
-				<input type="text" placeholder="TA1" >
-				<input type="text" placeholder="Glicemia1" >
-				<input type="text" placeholder="Temperatura1" >
-				<input type="text" placeholder="Sp021" >
+				<input type="text" placeholder="FR" >
+				<input type="text" placeholder="FC" >
+				<input type="text" placeholder="TA" >
+				<input type="text" placeholder="Glicemia" >
+				<input type="text" placeholder="Temperatura" >
+				<input type="text" placeholder="Sp02" >
 
 			<h6>Constants2</h6>
-				<input type="text" placeholder="FR2" >
-				<input type="text" placeholder="FC2" >
-				<input type="text" placeholder="TA2" >
-				<input type="text" placeholder="Glicemia2" >
-				<input type="text" placeholder="Temperatura2" >
-				<input type="text" placeholder="Sp022" >
+				<input type="text" placeholder="FR" >
+				<input type="text" placeholder="FC" >
+				<input type="text" placeholder="TA" >
+				<input type="text" placeholder="Glicemia" >
+				<input type="text" placeholder="Temperatura" >
+				<input type="text" placeholder="Sp02" >
 
 			<h6>Constants3</h6>
-				<input type="text" placeholder="FR3" >
-				<input type="text" placeholder="FC3" >
-				<input type="text" placeholder="TA3" >
-				<input type="text" placeholder="Glicemia3" >
-				<input type="text" placeholder="Temperatura3" >
-				<input type="text" placeholder="Sp023" >
+				<input type="text" placeholder="FR" >
+				<input type="text" placeholder="FC" >
+				<input type="text" placeholder="TA" >
+				<input type="text" placeholder="Glicemia" >
+				<input type="text" placeholder="Temperatura" >
+				<input type="text" placeholder="Sp02" >
 
             <h3>Pupil·les</h3>
 				
-					<select name="Pupil·les">
+					<select name="Pupil·les1">
 						<option value="Reactives">Reactives</option>
 						<option value="Areactives">Areactives</option>
 			
 					</select>
 				
 				
-					<select name="Pupil·les">
+					<select name="Pupil·les2">
 						<option value="Midriatiques">Midriatiques</option>
 						<option value="Normals">Normals</option>
 						<option value="Miotiques">Miotiques</option>
 					</select>
 				
-					<select name="Pupil·les">
+					<select name="Pupil·les3">
 						<option value="Isocoriques">Isocoriques</option>
 						<option value="Aninsocoriques">Aninsocoriques</option>
 					</select>
 				
 					<h6>Glasgow</h6>
 						<h6>Resposta ocular</h6>
-						<input type="radio" name="ocular" value="1"> 1<br>   
- 						<input type="radio" name="ocular" value="2"> 2<br>
- 						<input type="radio" name="ocular" value="3"> 3<br>
- 						<input type="radio" name="ocular" value="4"> 4<br>
+						<input type="radio" name="ocular1" value="1"> 1<br>   
+ 						<input type="radio" name="ocular2" value="2"> 2<br>
+ 						<input type="radio" name="ocular3" value="3"> 3<br>
+ 						<input type="radio" name="ocular4" value="4"> 4<br>
  						
  					<h6>resposta verbal</h6> 					
-						<input type="radio" name="verbal" value="1"> 1<br>
- 						<input type="radio" name="verbal" value="2"> 2<br>
- 						<input type="radio" name="verbal" value="3"> 3<br>
- 						<input type="radio" name="verbal" value="4"> 4<br>
- 						<input type="radio" name="verbal" value="5"> 5<br>
+						<input type="radio" name="verbal1" value="1"> 1<br>
+ 						<input type="radio" name="verbal2" value="2"> 2<br>
+ 						<input type="radio" name="verbal3" value="3"> 3<br>
+ 						<input type="radio" name="verbal4" value="4"> 4<br>
+ 						<input type="radio" name="verbal5" value="5"> 5<br>
  					<h6>resposta motora</h6> 
-						<input type="radio" name="motora" value="1"> 1<br>
- 						<input type="radio" name="motora" value="2"> 2<br>
- 						<input type="radio" name="motora" value="3"> 3<br>
- 						<input type="radio" name="motora" value="4"> 4<br>
- 						<input type="radio" name="motora" value="5"> 5<br>
- 						<input type="radio" name="motora" value="6"> 6<br>
+						<input type="radio" name="motora1" value="1"> 1<br>
+ 						<input type="radio" name="motora2" value="2"> 2<br>
+ 						<input type="radio" name="motora3" value="3"> 3<br>
+ 						<input type="radio" name="motora4" value="4"> 4<br>
+ 						<input type="radio" name="motora5" value="5"> 5<br>
+ 						<input type="radio" name="motora6" value="6"> 6<br>
  						
-						<input type="submit" value="Enviar">
 
- 					</form>
+ 						<input type="submit" name="enviar">
+ 						
+ 					</form> 
+ 					<?php
+ 					include("enviar.php");
+ 					?>
+ 				
+ 					
 		</body>
 			
 	</html>
