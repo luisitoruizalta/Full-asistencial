@@ -12,6 +12,7 @@ header{
 }
 
 nav{
+    color: black;
 }
 
 nav ul li{
@@ -19,6 +20,7 @@ nav ul li{
     list-style: none;
     margin: 10px;
     line-height: 30px;
+    
 }
 
 .clearfix{
@@ -28,9 +30,18 @@ nav ul li{
 #content2{
     float: left;
     width: 80%;
+    margin: 10px;
 }
 
 aside{
     float: left;
     width: 20%;
+    margin: 10px;
 }
+
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
